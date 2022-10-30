@@ -16,3 +16,7 @@ The answer is: XXXXXXX
 ```
 
 其中的答案就是我们的题目的答案。
+
+```bash
+docker run -it -v `pwd`/config.txt:/app/config.txt -e HCSP_ENV=DEF blindpirate/hcsp-quiz java Main
+```
